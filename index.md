@@ -4,9 +4,13 @@ You can use the [editor on GitHub](https://github.com/tmaturi/tmaturi2/edit/mast
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.bbb
 
-{% for paper in site.data.papers }
-{{ paper.Name }}
+<ul>
+{% for paper in site.data.papers %}
+  <li>
+      {{ paper.Name }}
+  </li>
 {% endfor %}
+</ul>
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
