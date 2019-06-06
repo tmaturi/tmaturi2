@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 <ul>
 {% for paper in site.data.papers %}
   <li>
-      {{ paper.Name }}
+      {{ paper.Name }} {{paper.Year}}. {{ paper.Title }}, {{ paper.Volume }}: {{ paper.Pages }}.
   </li>
 {% endfor %}
 </ul>
