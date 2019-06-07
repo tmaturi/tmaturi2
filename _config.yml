@@ -3,3 +3,6 @@ theme: jekyll-theme-slate
 title: Tahani Coolen-Maturi
 description: My personal webpage
 show_downloads: false
+
+github:
+  is_project_page: false
